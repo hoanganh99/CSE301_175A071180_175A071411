@@ -182,6 +182,9 @@
 			</div>
 		</div>
 		
+
+
+
 		<!Phần Live Helper Chat>	
 		<div class="livehelperchat" style='color= red;    text-decoration: none;'>
 				<div class="live" style=' text-decoration: none;'>
@@ -213,6 +216,22 @@
 		    	 	$('.chatbox').show();
 		    	 });
 		    });
+		</script>
+
+
+		<script>
+			var LHC_API = LHC_API||{};
+			LHC_API.args = {mode:'widget',lhc_base_url:'//hoangthingocanh.com/index.php/',wheight:450,wwidth:350,pheight:520,pwidth:500,leaveamessage:true,check_messages:false};
+			(function() {
+			var po = document.createElement('script'); 
+			po.type = 'text/javascript'; 
+			po.setAttribute('crossorigin','anonymous'); 
+			po.async = true;
+			var date = new Date();
+			po.src = '//hoangthingocanh.com/design/defaulttheme/js/widgetv2/index.js?'+(""+date.getFullYear() + date.getMonth() + date.getDate());
+			var s = document.getElementsByTagName('script')[0]; 
+			s.parentNode.insertBefore(po, s);
+			})();
 		</script>
 
 </html>
