@@ -1,0 +1,166 @@
+
+
+.user h5
+{
+	height: 50px;
+	width: 100%;
+	padding-top: 1%;
+	background-color: rgb(43, 90, 132);
+	color: white;
+	text-align: center;
+}
+
+
+
+/* phần menu main */
+.MENU
+{
+	border: 1px solid #E6E6E6;
+	margin-left: 7%;
+	margin-right: 7%;
+	display: flex;
+}
+
+/* phần menu_main */
+.menu_main
+{
+	border: 1px solid #E6E6E6;
+	width: 20%;
+}
+.menu_main h3
+{
+	background-color: #A8A8A8;
+}
+.menu_main ul li 
+{
+	list-style: none;
+	margin-left: -10%;
+}
+.menu_main hr
+{
+	margin-left: -10%;
+	margin-right: 10%;
+}
+.menu_main .menu_main1 
+{
+	color: #626A69;
+}
+
+
+/* phần melu */
+.melu
+{
+	text-align: center;
+	width: 100%;
+}
+.melu .title
+{
+	background-color: pink;
+}
+.melu .content
+{
+	text-align: left;
+}
+.melu h3
+{
+	text-align: center;
+	margin-top: 1%;
+	color: pink;
+}
+.melu table
+{
+	width: 95%;
+	margin-left:  3%;
+	margin-top: 3%;
+	margin-right: -7%;
+	border: 1px solid #848484;
+}
+.melu table a
+{
+	text-decoration: none;
+	color: #848484;
+}
+/* phần thêm, xóa, cập nhật */
+.melu .task
+{
+	text-align: left;
+	margin-left: 3%;
+}
+.melu .task input
+{
+	width: 12%;
+	font-size: 12px;
+}
+
+
+/* phần cuối */
+#ja-footer
+{
+	text-align: center;
+}
+.scroll-to-top 
+{
+	margin-left: 97%;
+}
+
+
+
+/* phần chỉnh sửa */
+.title-module
+{
+	width: 100%;
+}
+.title-module h3
+{
+	text-align: center;
+	margin-top: 2%;
+}
+.title-module form
+{
+	margin-left: 5%;
+}
+.title-module td
+{
+	font-size: 12px;
+}
+
+/* phần thời khóa biểu */
+.melu .filter
+{
+	display: flex;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+.melu .row-first
+{
+	background-color: pink;
+}
+.melu .col-first
+{
+	background-color: #81BEF7;
+}
+
+
+
+
+#bd1
+{
+	display: none;
+}
+/* phần responside */
+@media only screen and (max-width: 1050px) 
+{
+	/* main */
+	#bd
+	{
+		display: block;
+	}
+	#bd1
+	{
+		display: none;
+	}
+	.MENU .menu_main ul li
+	{
+		margin-left: -40%;
+	}
+}

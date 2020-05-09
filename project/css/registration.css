@@ -1,0 +1,185 @@
+body
+{
+	margin: 0px auto;
+}
+
+.wrapper
+{
+	width: 100%;
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login
+{
+	height: 530px;
+	width: 900px;
+	background-color: #024282;
+	display: flex;
+	align-items: center;
+}
+.main
+{
+	height: 480px;
+	width: 100%;
+	background-color: #829fbc;
+}
+.wrapper .top .image1 img
+{
+	width: 100px;
+	margin-top: -15.5px;
+	margin-left: 10px;
+}
+.wrapper .top .image2 img
+{
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+
+.body
+{
+	border-radius: 10px;
+	border: 1px solid #024282;
+	background-color: #efead7;
+	height: 350px;
+	margin: 5px 150px;
+}
+.body .image img
+{
+	margin-left: -15px;
+}
+.body .image p
+{
+	margin-top: 15%;
+	font-size: 17px;
+	font-weight: bolder;
+	color: #024282;
+}
+.body .image .content1
+{
+	color: #7f0000;
+	padding-left: 5px;
+	font-weight: bolder;
+	font-size: 22px;
+}
+.body .image .content1 p
+{
+	color: #7f0000;
+	padding-left: 25%;
+	margin-top: -0.5%;
+	font-size: 18px;
+}
+
+
+.body .content h4
+{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bolder;
+	color: #a55204;
+	/* tạo đổ bóng cho chữ */
+	text-shadow: 4px 4px #b2b2b2;
+}
+.body .content form
+{
+	border-radius: 10px;
+	border:  1px solid #024282;
+	height: 275px;
+	width: 390px;
+	list-style: none;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #024282;
+	padding-left: 15px;
+	margin-left: -30px;
+}
+.body .content input
+{
+	margin-left: 10px;
+	margin-top: 7px;
+	border-radius: 10px;
+	border: 1px solid #56aaff;
+	padding-left: 5px;
+}
+
+/* nút đăng nhập ở trang đăng ký */
+.body .content .login3
+{
+	margin-left: 20px;
+	margin-top: 12px;
+	height: 24px;
+}
+/* nút đăng ký ở trang đăng ký = nút đăng nhập ở trang đăng nhập*/
+.body .content .login2
+{
+	background-color: #7070c1;
+	border-radius: 10px;
+	border: 1px solid #56aaff;
+	margin-left: 10px;
+	margin-top: 12px;
+	height: 24px;
+	width: 30%;
+}
+
+
+.footer
+{
+	font-size: 13px;
+	color: white;
+	text-align: justify;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1050px) 
+{
+	.login
+	{
+		width: 100%;
+	}
+	.login .top .image2 img
+	{
+		width: 250px;
+		margin-left: 235px;
+		margin-top: -105px;
+	}
+	.body
+	{
+		margin-top: -20px;
+		margin-left: 5%;
+		width: 90%;
+	}
+	.body .image p
+	{
+		font-size: 15px;
+		margin-top: -1%;
+	}
+	.body .image .content1 
+	{
+		font-size: 15px;
+	}
+	.body .image .content1 p
+	{
+		font-size: 13px;
+		margin-left: -20%;
+		margin-top: 1%;
+	}
+	.body .content 
+	{
+		margin-left: 170px;
+		margin-top: -200px;
+	}
+	.body .content h4
+	{
+		margin-top: -2%;
+	}
+	.body .content form
+	{
+		margin-left: -10px;
+		width:350px;
+	}
+}
+
+
